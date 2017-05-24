@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2FDD47FF-4D02-2E85-E759-38A2C81C400F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "No_Bark_Vs",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": false
+		},
+		{
+			"Name": "AI_Plugin",
+			"Enabled": true
+		}
+	],
+	"AdditionalPluginDirectories": [
+		"/../../../Vertical_Slice/Plugins"
+	]
+}
